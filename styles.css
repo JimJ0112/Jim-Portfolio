@@ -5,6 +5,7 @@ body{
     background-color: rgb(10, 10, 10);
     display: grid;
     position: relative;
+    grid-template-columns: 1fr;
 
 }
 
@@ -179,7 +180,15 @@ a{
     text-align: center;
 }
 
-footer{}
+footer{
+    position: absolute;
+    bottom: 0;
+    
+    width: 100%;
+    z-index: 2;
+   
+
+}
 
 .footertext{
     font-size: small;
