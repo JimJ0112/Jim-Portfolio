@@ -1,0 +1,186 @@
+body{
+   
+    padding: 0;
+    margin: 0;
+    background-color: rgb(10, 10, 10);
+    display: grid;
+    position: relative;
+
+}
+
+#bg-Image{
+   
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-image: url('Images/bg.jpg');
+    filter: brightness(50%);
+    opacity: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    display: grid;
+    align-content: center;
+    
+}
+
+#content1{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    top:700px;
+    box-shadow: 0px 0px 100px 100px rgb(10, 10, 10);
+    
+}
+
+#navbarNavAltMarkup{
+    float: right;
+   
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+.navbar-nav{
+    margin-left: 500px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.232);
+    z-index: 20;
+    display: grid;
+    margin: 0;
+
+}
+
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.232);
+
+}
+
+.navbar-dark{
+    background-color: rgba(0, 0, 0, 0.232);
+}
+
+.navbar-expand-lg{
+    background-color: rgba(0, 0, 0, 0.232);
+
+}
+
+#ContactMe{
+    margin: auto;
+    margin-top: 40%;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+/*content*/
+#Intro{
+    margin: auto;
+    width: 800px;
+    height: fit-content;
+    color: white;
+    z-index: 2;
+    text-align: center;
+   
+    
+}
+
+hr{
+    color: rgb(145, 144, 144);
+    background-color: rgb(162, 158, 158);
+    z-index: 2;
+}
+
+
+
+#Projects{
+    margin: auto;
+    width: 800px;
+    height: 300px;
+    margin-top: 200px;
+    color: white;
+    z-index: 2;
+    text-align: center;
+}
+
+#myProjectsHeading{
+
+}
+
+#myProjectsTable{
+    
+    height: fit-content;
+    width: 800px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    padding: 10px;
+
+}
+
+.projectcard{
+    width: fit-content;
+    height: fit-content;
+  
+    cursor: pointer;
+    display: grid;
+    align-content: center;
+    background-color: rgb(242, 223, 223);
+    border-radius: 10px;
+}
+
+.projectcardImage{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    object-fit: contain;
+    border-radius: 10px;
+    background-size: cover;
+    z-index: 3;
+    object-fit: cover;
+}
+
+.projectcardImage:hover{
+  
+    object-fit: contain;
+ 
+}
+
+#MyPic{
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.contactmeIcon{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+.contactmelink{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#JLLogo{
+    border: 1px solid white;
+    text-align: center;
+}
+
+footer{}
+
+.footertext{
+    font-size: small;
+}
