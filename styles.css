@@ -58,6 +58,10 @@ body{
 
 }
 
+.separator{
+   color:gray;
+}
+
 .bg-dark{
     background-color: rgba(0, 0, 0, 0.232);
 
