@@ -61,7 +61,7 @@ body{
 
 .separator{
    color:gray;
-   box-shadow:0 0 10px 10px black;
+   box-shadow:0 0 5px 5px gray;
 }
 
 .bg-dark{
@@ -109,7 +109,8 @@ hr{
 #Projects{
     margin: auto;
     width: 800px;
-    height: 300px;
+   /* height: 300px; */
+    height: fit-content;
     margin-top: 200px;
     color: white;
     z-index: 2;
@@ -196,7 +197,7 @@ footer{
     z-index: 2;
     height: auto;
     min-height:200px;
-    max-height:500px;
+   
    
 
 }
