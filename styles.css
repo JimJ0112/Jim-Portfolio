@@ -61,7 +61,7 @@ body{
 
 .separator{
    color:gray;
-   box-shadow:0 0 5px 5px gray;
+   font-width: normal;
 }
 
 .bg-dark{
@@ -196,7 +196,7 @@ footer{
     width: 100%;
     z-index: 2;
     height: auto;
-    min-height:200px;
+   
    
    
 
