@@ -45,8 +45,9 @@ body{
 }
 
 .navbar-nav{
-    margin-left: 500px;
-    margin-right: 0px;
+   /* margin-left: 500px; */
+   margin-left: clamp(500px 600px 700px);
+ 
 }
 
 .navbar{
